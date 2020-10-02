@@ -1,18 +1,18 @@
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
-	call neobundle#begin(expand('~/.vim/bundle/'))
+    call neobundle#begin(expand('~/.vim/bundle/'))
 endif
 
 NeoBundleFetch 'Shougo/neobundle.vim'
-NeoBundle 'joonty/vdebug'
-NeoBundle "pangloss/vim-javascript"
+"NeoBundle 'joonty/vdebug'
+NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'vim-jp/vimdoc-ja'
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'Shougo/vimshell.vim'
+"NeoBundle 'Shougo/vimproc'
+"NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/neocomplcache'
 "NeoBundle 'nefo-mi/nyan-modoki.vim'
@@ -38,9 +38,9 @@ set background=dark
 colorscheme molokai
 set t_Co=256
 
-set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
-set fileformats=unix,dos,mac
+"set encoding=utf-8
+"set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+"set fileformats=unix,dos,mac
 
 "use neocomplete.
 let g:neocomplete#enable_at_startup = 1
